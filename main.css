@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+	text-shadow: 0px 0px 15px gray;
+}
+
+body {
+    font-family: 'Droid Sans Mono', sans-serif;
+    font-size: 17px;
+    max-width: 700px;
+    min-width: 530px;
+    margin: 0 auto;
+    padding: 0 50px;
+	color: gray;
+	background-color: black;
+}
+
+button {
+  color: black;
+  background-color:white;
+  border: 0px solid #900;
+  font-weight: bold;
+}
+
+a, a:hover, a:visited, a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+p, blockquote {
+    margin-bottom: 20px;
+    line-height: 1.7em;
+}
+
+.warning {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    background: rgba(255, 200, 200, 0.85);
+    padding: 10px;
+    border-bottom: 1px solid red;
+    z-index: 100;
+}
+
+.warning span {
+    font-size: 70%;
+}
+
+.show-warning {
+    margin-top: 60px;
+}
+
+.show-warning .warning {
+    display: block;
+}
+
+.adventure {
+	cursor: default;
+	height:500px;
+}
+
+.transition {
+	color: white;
+	cursor: pointer;
+	text-shadow: 0px 0px 3px white;
+}
